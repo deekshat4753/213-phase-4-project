@@ -1,0 +1,2639 @@
+         PHASE 4
+
+ASSISTED PROJECTS
+
+1. IMPORT BOOTSTRAP IN YOUR APPLICATION
+
+Web.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Web Development Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<h1>Web Development Blog</h1>
+	<p>This blog discusses web development tools and libraries.</p>
+
+</body>
+</html>
+
+
+Web1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Development Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Web Development Blog</h1>
+	<p>This blog discusses web development tools and libraries.</p>
+</body>
+</html>
+
+
+2. DEVELOP A STATIC WEB PAGE
+
+Lang.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Web Development Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="page-header">
+  		<h1>Introduction to Bootstrap</h1>
+  		<img src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg" class="img-fluid w-100 p-3" alt="Responsive image">
+	</div>
+	<div class=“container-fluid”> 
+		<p> Get started with <mark>Bootstrap</mark>, the world’s most popular framework for building responsive, mobile-first sites, with Bootstrap <abbr title="Content Delivery Network">CDN</abbr> and a template starter page. </p>
+
+		<p>According to the official website, Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Sounds great! Now how do I use it? It would be easy to send you over to their Getting Started page and call it a day. Their setup guide is indeed a host of useful information — links to CDNs, explanations on how to install with Bower, npm, and Composer, information on integration with Autoprefixer and LESS, a bunch of templates, licenses, and translations — but you could read this blog here instead for a better and easier understanding.</p>
+		<span class="glyphicon glyphicon-pencil"></span>
+
+		<p class="text-center">The list below shows the different version of Bootstrap so far. <span class="glyphicon glyphicon-list-alt"></span></p>
+
+		<ul class="list-group">
+		  <li class="list-group-item">v1.x</li>
+		  <li class="list-group-item">v2.x</li>
+		  <li class="list-group-item">v3.x</li>
+		  <li class="list-group-item">v4.x</li>
+		</ul>
+
+		<p class="text-center bg-info"> The main features of bootstrap is, it is very simple and easy to use, huge JavaScript plugins are available, easily design mobile friendly website.</p>
+
+	</div>
+
+	
+	<div class="container-fluid">   
+	  <h2></h2>
+	  <table class="table table-bordered table-striped">
+	    <thead>
+	      <tr >
+	        <th>Features of Bootstrap</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Easy to Use</td>
+	      </tr>
+	      <tr>
+	        <td>Mobile Friendly</td>
+	      </tr>
+	      <tr>
+	        <td>Prestyled Components</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+	<div class="container-fluid"
+		<p class="text-left">Lets take a look at the components of bootstrap:</p>
+		<h1>CSS<span class="badge badge-secondary">Quoted</span></h1>
+		<p class="text-justify">Copy-paste the stylesheet link into your head before all other stylesheets to load our CSS.</p>
+		<h2>JS <span class="badge badge-secondary">Quoted</span></h2>
+		<p class="text-justify">Many of our components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins. Place the following scripts near the end of your pages, right before the closing bodytag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.We use jQuery’s slim build, but the full version is also supported.</p>
+	</div>
+	<div class="card">
+		  <div class="card-header">Author</div>
+		  <div class="card-body">The article was contributed by katesmith12</div>
+		  <a href="https://www.sitesbay.com/bootstrap/bootstrap-features-of-bootstrap" class="card-footer btn btn-outline-primary stretched-link">View References</a>
+	</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small indigo">
+
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">This is the footer section where you can put the address and copyright details. © 2018 Copyright: 
+	    <a href="https://simplilearn.net/"> Simplilearn</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.3.2.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+3. FORMS
+
+Browser.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Web Development Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="page-header">
+  		<h1>Introduction to Bootstrap</h1>
+  		<img src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg" class="img-fluid w-100 p-3" alt="Responsive image">
+	</div>
+	<div class=“container-fluid”> 
+		<p> Get started with <mark>Bootstrap</mark>, the world’s most popular framework for building responsive, mobile-first sites, with Bootstrap <abbr title="Content Delivery Network">CDN</abbr> and a template starter page. </p>
+
+		<p>According to the official website, Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Sounds great! Now how do I use it? It would be easy to send you over to their Getting Started page and call it a day. Their setup guide is indeed a host of useful information — links to CDNs, explanations on how to install with Bower, npm, and Composer, information on integration with Autoprefixer and LESS, a bunch of templates, licenses, and translations — but you could read this blog here instead for a better and easier understanding.</p>
+		<span class="glyphicon glyphicon-pencil"></span>
+
+		<p class="text-center">The list below shows the different version of Bootstrap so far. <span class="glyphicon glyphicon-list-alt"></span></p>
+
+		<ul class="list-group">
+		  <li class="list-group-item">v1.x</li>
+		  <li class="list-group-item">v2.x</li>
+		  <li class="list-group-item">v3.x</li>
+		  <li class="list-group-item">v4.x</li>
+		</ul>
+
+		<p class="text-center bg-info"> The main features of bootstrap is, it is very simple and easy to use, huge JavaScript plugins are available, easily design mobile friendly website.</p>
+
+	</div>
+
+	
+	<div class="container-fluid">   
+	  <h2></h2>
+	  <table class="table table-bordered table-striped">
+	    <thead>
+	      <tr >
+	        <th>Features of Bootstrap</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Easy to Use</td>
+	      </tr>
+	      <tr>
+	        <td>Mobile Friendly</td>
+	      </tr>
+	      <tr>
+	        <td>Prestyled Components</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+	<div class="container-fluid"
+		<p class="text-left">Lets take a look at the components of bootstrap:</p>
+		<h1>CSS<span class="badge badge-secondary">Quoted</span></h1>
+		<p class="text-justify">Copy-paste the stylesheet link into your head before all other stylesheets to load our CSS.</p>
+		<h2>JS <span class="badge badge-secondary">Quoted</span></h2>
+		<p class="text-justify">Many of our components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins. Place the following scripts near the end of your pages, right before the closing bodytag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.We use jQuery’s slim build, but the full version is also supported.</p>
+	</div>
+	<div class="card">
+		  <div class="card-header">Author</div>
+		  <div class="card-body">The article was contributed by katesmith12</div>
+		  <a href="https://www.sitesbay.com/bootstrap/bootstrap-features-of-bootstrap" class="card-footer btn btn-outline-primary stretched-link">View References</a>
+	</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small indigo">
+
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">This is the footer section where you can put the address and copyright details. © 2018 Copyright: 
+	    <a href="https://simplilearn.net/"> Simplilearn</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.3.2.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+4. Navigation and Pagination
+
+Nav.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="#"><img src="images/noodle.png" alt=""></a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page.html">Pagination</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <p>The 'nav' tag is used to define a block of links for navigation, for the current page, or for other pages.</p>
+  </body>
+</html>
+
+
+Page.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <p>Pagination is used to divide a document into different pages with numbers.</p>
+    <nav aria-label="Pagination Demo">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="form.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="nav.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+5. Building a restaurant website using bootstrap
+
+Index.html
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+            initial-scale=1, shrink-to-fit=no">
+ 
+    <link rel="stylesheet" href="index.css">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+ 
+    <title>Restaurant Website</title>
+</head>
+ 
+<body>
+ 
+    <!-- navbar  -->
+    <nav>
+        <ul class="nav-flex-row">
+            <li class="nav-item">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#shop">Shop</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="section-intro">
+        <header>
+            <h1> Welcome To Fooddddie's
+                Kitchen</h1>
+        </header>
+        <div class="link-to-book-wrapper">
+<a class="link-to-book"
+                href="#reservations">Book a table</a>
+        </div>
+    </section>
+ 
+    <section class="about-section">
+        <article>
+            <h3>
+                Section for the text why your
+                restaurant is the best.
+            </h3>
+ 
+             
+<p>
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. A quos, voluptatum
+                illum mollitia dolores libero placeat
+                nesciunt quasi adipisci impedit!Lorem
+                ipsum dolor sit, amet consectetur
+                adipisicing elit. A quos, voluptatum
+                illum mollitia dolores libero placeat
+                nesciunt quasi adipisci impedit!
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. A quos, voluptatum
+                illum mollitia dolores libero placeat
+                nesciunt quasi adipisci impedit!Lorem
+                ipsum dolor sit.
+            </p>
+</article>
+    </section>
+ 
+    <!-- carousel section -->
+    <div id="carouselExampleControls"
+        class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/food1.png"
+                    class="d-block w-100" alt="food">
+            </div>
+            <div class="carousel-item">
+                <img src="img/food2.png"
+                    class="d-block w-100" alt="food">
+            </div>
+            <div class="carousel-item">
+                <img src="img/food3.png"
+                    class="d-block w-100" alt="food">
+            </div>
+        </div>
+        <a class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"
+                aria-hidden="true">
+            </span>
+            <span class="sr-only">Previous</span>
+        </a>
+<a class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button" data-slide="next">
+            <span class="carousel-control-next-icon"
+                aria-hidden="true">
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+ 
+    <div class="container">
+        <div class="row-flex">
+            <div class="flex-column-form">
+                <h3>
+                    Make a booking
+                </h3>
+                <form class="media-centered">
+                    <div class="form-group">
+                         
+<p>
+                            Please leave your number we will
+                            call to make a reservation
+                        </p>
+ 
+                         
+                        <input type="name" class="form-control"
+                            id="exampleInputName1"
+ aria-describedby="nameHelp"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control"
+                            id="exampleInputphoneNumber1"
+                            placeholder="Enter your phone number">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div class="opening-time">
+                <h3>
+                    Opening times
+                </h3>
+                 
+<p>
+                    <span>Monday—Thursday: 08:00 — 22:00</span>
+                    <span>Friday—Saturday: 09:00 — 23:00 </span>
+                    <span>Sunday: 10:00 — 17:00</span>
+                </p>
+ 
+            </div>
+            <div class="contact-address">
+                <h3>
+                    Contact
+ </h3>
+                 
+<p>
+                    <span>410-602-8008</span>
+                    <span>15 Florida Ave</span>
+                    <span>Palo-Alto, 1111 CA</span>
+                </p>
+ 
+            </div>
+        </div>
+    </div>
+ 
+ 
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+     
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous">
+    </script>
+     
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+</body>
+ 
+</html>
+
+Index.css
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+ 
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+ 
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.nav-flex-row li a:hover{
+    background: #E7E7E7;
+}
+ 
+.section-intro {
+    height: 820px;
+    background-image: url(img/foddiee.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.section-intro h1 {
+    text-align: center;
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+ 
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.link-to-book-wrapper {
+    flex: 1;
+}
+ 
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+ 
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+ 
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+ 
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+ 
+.carousel-inner {
+    height: 700px;
+}
+ 
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+ 
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: #95999e;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+ 
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-address {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+ 
+.form-group p {
+    font-size: 1.2em;
+}
+ 
+.opening-time p span,
+.contact-address p span {
+    display: block;
+}
+ 
+@media (min-width:577px) and (max-width: 800px) {
+ 
+    .section-intro {
+        height: 500px;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+ 
+    .about-section {
+        padding: 30px;
+    }
+ 
+    .section-intro h1 {
+        font-size: 2em;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+    .form-group p {
+        font-size: 15px;
+    }
+ 
+    .opening-time p span,
+    .contact-address p span {
+        font-size: 15px;
+        text-align: center;
+    }
+ 
+}
+
+6. Functions and prototyping
+
+Index.html
+
+<html>
+    <body>
+        <h1>MEAN Stack</h1>
+        <p> Lesson 3 Demos </p>
+
+        <script src="functions_and_prototypes.js"></script>
+        
+
+    </body>
+</html>
+
+
+functionprototype.js
+
+function Employee(name, designation, yearOfBirth){   
+    this.name= name; 
+    this.designation= designation; 
+    this.yearOfBirth= yearOfBirth; 
+} 
+
+// creating calculateAge() method to the Prototype property 
+Employee.prototype.calculateAge= function(){  
+    console.log('The current age is: '+(2019- this.yearOfBirth)); 
+} 
+console.log(Employee.prototype); 
+  
+
+// creating Objects
+let Emp1= new Employee('Alex', 'Junior Tester', 1995);  
+console.log(Emp1) ;
+Emp1.calculateAge(); 
+
+let Emp2= new Employee('Dexter', 'Senior Software Developer', 1990); 
+console.log(Emp2) 
+Emp2.calculateAge();
+
+let Emp3= new Employee('Annie', 'Junior HR', 1998); 
+console.log(Emp3) 
+Emp3.calculateAge();
+
+
+7. Working with functions
+
+Index.html
+
+<html>
+    <body>
+        <h1>MEAN Stack</h1>
+        <p> Lesson 3 Demos </p>
+
+        <script src="function.js"></script>
+        
+
+    </body>
+
+
+Function.js
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Javascript – Function<h1>
+
+<script>
+
+	var x = (2 * 3) + 5;
+	var y = 3 * 4;
+	
+	var result = myFunction(2,3);
+	console.log(result);
+	
+	function myFunction(num1, num2) {
+		var a = num1 * num2;
+		var b = num1 + num2;
+		return(a + b);
+	}
+	
+	console.log( myFunction(3, 4));
+	
+	function toCelcius(f){
+			return (5/9) * (f-32);
+	}
+	
+	console.log("The temperature is "+ toCelcius(60));
+	
+</script>
+
+</body>
+</html>
+
+
+8. IIFE'S , CALLBACKS AND CLOSURES
+
+Index.html
+
+<html>
+    <body>
+        <h1>MEAN Stack</h1>
+        <p> Lesson 3 Demos </p>
+
+        <script src="IIFEs_Callbacks_Closures.js"></script>
+        
+
+    </body>
+</html>
+
+
+Callbacks.js
+
+const empId = (function() {
+    let count = 0;
+    return function() {
+      ++count;
+      return `emp${count}`;
+    };
+  })();
+  
+  console.log("New Emplyee IDs are listed here");
+  console.log("Alex: "+empId()); 
+  console.log("Dexter: "+empId()); 
+  console.log("Annie: "+empId());
+   
+
+  //Callbacks
+  console.log("\n"); //to start the output from the neext line
+  function fullName(firstName, lastName, callback){
+    console.log("My name is " + firstName + " " + lastName);
+    callback(lastName);
+  }
+  
+  var greeting = function(ln){
+    console.log('Welcome ' + ln);
+  };
+  
+  fullName("Alex", "Wilson", greeting);
+  console.log("\n");
+  fullName("Dexter", "Johnson", greeting);
+  console.log("\n");
+  fullName("Annie", "Butler", greeting);
+  
+
+9. Maps and Classes
+
+Index.html
+
+<html>
+    <body>
+        <h1>MEAN Stack</h1>
+        <p> Lesson 3 Demos </p>
+
+        <script src="maps_and_classes.js"></script>
+        
+
+    </body>
+</html>
+
+
+Maps.js
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Javascript – Maps and Classes<h1>
+
+<script>
+
+var map1 = new Map(); 
+map1.set("first name", "Robb"); 
+map1.set("last name", "Stark"); 
+map1.set("friend 1","Bran") 
+    .set("friend 2","Arya"); 
+console.log(map1); 
+console.log("map1 has friend 3 ? " + map1.has("friend 3")); 
+console.log("get value for key = friend 3 - "+ map1.get("friend 3")); 
+console.log("delete element with key = friend 2 - " + map1.delete("friend 2")); 
+map1.clear(); 
+console.log(map1);
+class Employee
+{
+    constructor(id,name)
+    {
+      this.id=id;
+      this.name=name;
+    }
+    detail()
+    {
+  document.writeln(this.id+" "+this.name+"<br>")
+    }
+  }
+//passing object to a variable 
+var e1=new Employee(101,"Michael");
+var e2=new Employee(102,"Bob");
+e1.detail(); 
+e2.detail();
+
+10. Team Budget Planner
+
+Index.html
+
+<html>
+<head>
+<title> Budget </title>
+</head>
+<body>
+ <div class="budget-section">
+
+        <div class="budget col col-md col-sm">
+          <h2>budget</h2>
+          <img src="image/money-bag.svg" width="40" alt="" />
+          <p class="amount">$ <span id="budgetAmount">0</span></p>
+        </div>
+
+        <div class="expenses col col-md col-sm">
+          <h2>expenses</h2>
+          <img src="image/accounting.svg" width="40" alt="" />
+          <p class="exp-amount">$ <span id="expensesAmount">0</span></p>
+        </div>
+
+        <div class="balance col col-md col-sm">
+          <h2>balance</h2>
+          <img src="image/law.svg" width="40" alt="" />
+          <p class="amount bala">$ <span id="balanceAmount">0</span></p>
+        </div>
+
+      </div>
+</body>
+</html>
+
+Budget.html
+
+<html>
+<head>
+<title>Budget1</title>
+</head>
+<body>
+<div class="budget-form" id="budgetform">
+    <form id="addForm">
+       <label for=""> Make a budget</label> <br />
+       <input type="number" id="number" /> <br />
+       <button type="submit">Add Budget</button>
+     </form>
+</div>
+</body>
+</html>
+
+Control.js
+
+const amountInput = document.getElementById("number");
+const addForm = document.getElementById("addForm");
+
+const budgetAmount = document.getElementById("budgetAmount");
+const balanceAmount = document.getElementById("balanceAmount");
+
+function getBudgetAmount(amount) {
+  if (!amount) {
+    amountInput.style.border = "1px solid #b80c09";
+    amountInput.placeholder = "input can not be empty";
+    amountInput.style.color = "#b80c09";
+    setTimeout(() => {
+      amountInput.style.color = "#495057";
+      amountInput.style.border = "1px solid gray";
+    }, 3000);
+  } else {
+    budgetAmount.innerText = amount;
+    balanceAmount.innerText = amount;
+    expenseForm.style.display = "block";
+    budgetform.style.display = "none";
+    editForm.style.display = "none";
+    amountInput.value = "";
+  }
+}
+addForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  getBudgetAmount(amountInput.value);
+});
+
+Expense.html
+
+<html>
+<head>
+<title>Expense</title>
+</head>
+<body>
+<div class="expense-form" id="expense-form">
+ <form action="" id="expForm">
+
+   <div class="">
+     <label for="">please enter your expense</label> <br />
+     <input type="text" id="expName" />
+   </div>
+
+   <div class="">
+      <label for="">please enter expense amount</label> <br />
+      <input type="number" id="expNumber" />
+   </div>
+
+   <button type="submit" id="submitExpen">Add expense</button>
+ </form>
+</div>
+</body>
+</html>
+
+Expenses.html
+
+const expForm = document.getElementById("expForm");
+let expName = document.getElementById("expName");
+let expNumber = document.getElementById("expNumber");
+
+let id = 0;
+let details = [];
+
+function addExpenses(name, number) {
+  if (!name.length || !number.length) {
+    expName.style.border = "1px solid #b80c09";
+    expName.placeholder = "input can not be empty";
+    expName.style.color = "#b80c09";
+
+    expNumber.style.border = "1px solid #b80c09";
+    expNumber.placeholder = "input can not be empty";
+    expNumber.style.color = "#b80c09";
+
+    setTimeout(() => {
+      expName.style.color = "#495057";
+      expName.style.border = "1px solid gray";
+      expName.placeholder = "input can not be empty";
+
+      expNumber.placeholder = "input can not be empty";
+      expNumber.style.border = "1px solid gray";
+      expNumber.style.color = "#495057";
+}, 3000);
+  } else {
+    const userExp = {
+      id: id,
+      name: name,
+      number: parseInt(number),
+    };
+    details.push(userExp);
+    displayExp(details);
+    id++;
+    expName.value = "";
+    expNumber.value = "";
+  }
+}
+
+expForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  addExpenses(expName.value, expNumber.value);
+});
+
+
+Display.js
+
+function displayExp(details) {
+  expValue.innerHTML = null;
+  for (i = 0; i < details.length; i++) {
+    expValue.innerHTML += `
+    <div class="expValue" id="${details[i].id}">
+      <div id="expTitleName" class="exp"><p>${details[i].name}</p></div>
+      <div id="expValueAmount" class="exp"><p> <span>$ </span> ${details[i].number}</p></div>
+      <div id="edite_delete">
+        <p>
+          <button id="${details[i].id}" onclick="editExpDetails(${details[i].id})"> <img src="image/edit.svg" width="15" alt=""  /></button> 
+          <button id="${details[i].id}" onclick="delExpenseDetails(${details[i].id})"><img src="image/trash.svg" width="15" alt="" /></button>
+        </p>
+      </div>
+    </div>
+  `;
+  }
+  calcExpenses();
+  displayExpenses.style.display = "block";
+}
+
+CalExpenses.js
+
+function calcExpenses() {
+  let totalExp = 0;
+  for (i = 0; i < details.length; i++) {
+    totalExp = details[i].number + totalExp;
+  }
+  expensesAmount.innerText = totalExp;
+  updateBalance();
+}
+
+Balance.js
+
+function updateBalance() {
+  balanceAmount.innerText =
+    parseInt(budgetAmount.innerText) - parseInt(expensesAmount.innerText);
+}
+
+Form.html
+
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<div class="edit-form" id="editForm">
+   <form action="" id="saveEdit">
+      <div class="">
+          <label for="">Edit your expense</label> <br />
+          <input type="text" id="editExpName" />
+      </div>
+      <div class="">
+          <label for="">Edit expense amount</label> <br />
+          <input type="number" id="editExpNumber" />
+      </div>
+      <button type="submit">Save changes</button>
+   </form>
+</div>
+</body>
+</html>
+
+Details.js
+
+function editExpDetails(id) {
+  expenseForm.style.display = "none";
+  budgetform.style.display = "none";
+  editForm.style.display = "We block";
+  details.findIndex((item) => {
+    if (item.id === id) {
+      editExpName.value = item.name;
+      editExpNumber.value = item.number;
+      saveEdit.children[2].id = item.id;
+      modal.style.display = "block";
+    }
+  });
+}
+
+EditForm.js
+
+const editForm = document.getElementById("editForm");
+const saveEdit = document.getElementById("saveEdit");
+const editExpValue = document.getElementById("editExpValue");
+const editExpNumber = document.getElementById("editExpNumber");
+
+function getExpValue(editExpName, editExpNumber, id) {
+  edited = details.findIndex((obj) => obj.id == id);
+  details[edited].name = editExpName;
+  details[edited].number = parseInt(editExpNumber);
+  displayExp(details);
+}
+
+saveEdit.addEventListener("submit", (e) => {
+  e.preventDefault();
+  getExpValue(editExpName.value, editExpNumber.value, saveEdit.children[2].id);
+});
+
+ExpenseDetails.js
+
+function delExpenseDetails(id) {
+  let index = details.findIndex((item) => item.id === id);
+  details.splice(index, 1);
+  displayExp(details);
+}
+
+11. Components
+
+SettingComponentInputs.js
+
+@Component({
+  selector: 'app-bank-account',
+  inputs: ['bankName', 'id: account-id'],
+  template: `
+    Bank Name: {{ bankName }}
+    Account Id: {{ id }}
+  `
+})
+export class BankAccountComponent {
+  bankName: string|null = null;
+  id: string|null = null;
+
+  // this property is not bound, and won't be automatically updated by Angular
+  normalizedBankName: string|null = null;
+}
+
+@Component({
+  selector: 'app-my-input',
+  template: `
+    <app-bank-account
+      bankName="RBC"
+      account-id="4747">
+    </app-bank-account>
+  `
+})
+export class MyInputComponent {
+}
+
+
+SettingComponentOutputs.js
+
+@Directive({selector: 'app-interval-dir', outputs: ['everySecond', 'fiveSecs: everyFiveSeconds']})
+export class IntervalDirComponent {
+  everySecond = new EventEmitter<string>();
+  fiveSecs = new EventEmitter<string>();
+
+  constructor() {
+    setInterval(() => this.everySecond.emit('event'), 1000);
+    setInterval(() => this.fiveSecs.emit('event'), 5000);
+  }
+}
+
+@Component({
+  selector: 'app-my-output',
+  template: `
+    <app-interval-dir
+      (everySecond)="onEverySecond()"
+      (everyFiveSeconds)="onEveryFiveSeconds()">
+    </app-interval-dir>
+  `
+})
+export class MyOutputComponent {
+  onEverySecond() {
+    console.log('second');
+  }
+  onEveryFiveSeconds() {
+    console.log('five seconds');
+  }
+}
+
+InjectingClass.js
+
+class Greeter {
+   greet(name:string) {
+     return 'Hello ' + name + '!';
+   }
+}
+
+@Directive({
+  selector: 'needs-greeter'
+})
+class NeedsGreeter {
+  greeter:Greeter;
+
+  constructor(greeter:Greeter) {
+    this.greeter = greeter;
+  }
+}
+
+@Component({
+  selector: 'greet',
+  viewProviders: [
+    Greeter
+  ],
+  template: `<needs-greeter></needs-greeter>`
+})
+class HelloWorld {
+}
+
+Index.html
+
+<html>
+<head>
+<title>Expense</title>
+</head>
+<body>
+<button>Action 1</button>  <button>Action 2</button>
+<div ngPreserveWhitespaces>
+    whitespaces are preserved here
+    <span>    and here </span>
+</div>
+<a>Spaces</a>&ngsp;<a>between</a>&ngsp;<a>links.</a>
+<!-- compiled to be equivalent to:
+ <a>Spaces</a> <a>between</a> <a>links.</a>  -->
+<a>before</a>&ngsp;&ngsp;&ngsp;<a>after</a>
+<!-- compiled to be equivalent to:
+ <a>before</a> <a>after</a> -->
+</body>
+</html>
+
+12.  PROPERTY BINDING
+
+Component.html
+
+<html>
+<head>
+<title>Component</title>
+</head>
+<body>
+<p>  
+  Server2 is also working fine.  
+</p>  
+<button class="btn btn-primary">Add Server</button>  
+</body>
+</html>
+
+Component.ts
+
+import { Component, OnInit } from '@angular/core';  
+  
+@Component({  
+  selector: 'app-server2',  
+  templateUrl: './server2.component.html',  
+  styleUrls: ['./server2.component.css']  
+})  
+export class Server2Component implements OnInit {  
+  
+  constructor() { }  
+  
+  ngOnInit() {  
+  }  
+  
+}  
+
+
+13. Class and style bindings
+
+Component.html
+
+<html>
+<head>
+<title>Class</title>
+</head>
+<body>
+<button [attr.disabled]=”true” class="btn btn-primary" (click)='toggleImage()'>
+      Show Image
+  </button>
+</body>
+</html>
+
+Productlist.css
+
+.inStock{
+   background: #096d09;
+   color:#ffff;
+   Font-size:15px;
+}
+
+
+ProductList.css
+
+ <td [class.inStock]="true">
+    {{ product.price}}
+</td>
+
+
+Component.html
+
+<html>
+<head>
+<title>Component</title>
+</head>
+<body>
+<td [style.color]="'#306A9D'" [style.font-weight]="700">
+      {{ product.productName }}
+  </td>
+</body>
+</html>
+
+Conditional.html
+
+<html>
+<head>
+<title>Conditional</title>
+</head>
+<body>
+<td [style.color]="product.price > 20 ? 'red': 'green'"           [style.font-size.px]="16"  [style.font-weight]="700">
+       {{ product.price}}
+ </td>
+</body>
+</html>
+
+14. Event Binding
+
+Product-List-Component.ts
+
+export class ProductListComponent{
+   pageTitle: string = "Product List Page";
+   imageWidth:number = 80;
+   imageMargin:number = 10;
+
+   showImage:boolean = false;
+
+   toggleImage() : void {
+       this.showImage = !this.showImage;
+       // (!false = true) // (!true == false)
+ console.log('Value of ShowImage inside function ::',                              this.showImage);   
+   }
+
+}
+
+
+Component.html
+
+<html>
+<head>
+<title> Event Binding </title>
+</head>
+<body>
+<button class="btn btn-primary" (click)='toggleImage()'>
+      Show Image
+  </button>
+</body>
+</html>
+
+15 . TWO-WAY BINDING
+
+app.module.ts
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { ChildComponent } from './child/child.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ChildComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+app.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+    public cdata: string;
+}
+
+app.component.html
+
+<html>
+<head>
+<title>Components</title>
+</head>
+<body>
+<h2>Parent Component</h2>
+This is Parent Component<br>
+Enter Text: 
+<input type="text" #ptext (keyup)="0"/><br>
+The value of Child component is: {{cdata}}
+
+<app-child (cevent)="cdata=$event" [pdata]="ptext.value"></app-child>
+</body>
+</html>
+
+child.component.html
+
+<html>
+<head>
+<title>Child Component </title>
+</head>
+<body>
+<h2>Child Component</h2>
+This is Child Component<br>
+Enter Text: 
+<input type="text" #cdata (keyup)="onChange(cdata.value)"/><br>
+The value od Parent component is: {{pdata}}
+</body>
+</html>
+
+child.component.ts
+
+import { Component, OnInit, Input, EventEmitter } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  templateUrl: './child.component.html',
+  styleUrls: ['./child.component.css'],
+  inputs: [`pdata`],
+  outputs: [`cevent`]
+})
+export class ChildComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  public pdata: string;
+  cevent= new EventEmitter<string>();
+
+  onChange(value:string){
+    this.cevent.emit(value);
+  }
+}
+
+16. FORM VALIDATIONS
+
+app.component.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+</head>
+<body style="padding:40px ">
+<p style="text-align: center;font-size: 30px">  Hello <input type="text" placeholder="Your name" (input)="ontyping($event)"/>, Welcome to the <b>angCare!</b></p> 
+<p style="text-align: center;font-size: 20px">Hello {{name}}<br>I am Joe, your personal assistant! I will guide you further...</p>
+<div style="text-align:left;padding: 20px">
+<p> Click on Sign up to create your account with angCare: <button (click)="signup()" class="btn btn-primary">Sign up with {{title}}</button>   : {{status}}</p>
+<p> Click on Sign up to create your account with angCare: <button>Sign In </button></p>
+</div>
+<div >
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <h2>Angular 6 Reactive Form Validation</h2>
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                      <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                          <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                      <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                          <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Email</label>
+                      <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                          <div *ngIf="f.email.errors.required">Email is required</div>
+                          <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                      <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                          <div *ngIf="f.password.errors.required">Password is required</div>
+                          <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <button [disabled]="loading" class="btn btn-primary">Register</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+<router-outlet></router-outlet>
+     
+app.component.ts
+
+import { Component,OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
+     
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+     
+export class AppComponent {
+     
+  constructor(private formBuilder: FormBuilder) { }
+  title = 'angCare';
+  status = 'You haven\'t signed up yet';
+  name = '';
+  submitted = false;
+  registerForm: FormGroup;
+  ontyping(event:Event) {
+     
+    this.name = (<HTMLInputElement>event.target).value;
+  }
+  signup() {
+  
+     this.status = 'Oops! We are working on it!';
+     
+  }
+     
+  ngOnInit() {
+    this.registerForm = this.formBuilder.group({
+        firstName: ['', Validators.required],
+        lastName: ['', Validators.required],
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(6)]]
+    });
+}
+     
+get f() { return this.registerForm.controls; }
+     
+onSubmit() {
+    this.submitted = true;
+     
+    // stop here if form is invalid
+    if (this.registerForm.invalid) {
+        return;
+    }
+     
+    alert('Your request has been submitted for approval')
+}
+}
+     
+app.module.ts
+
+import { ReactiveFormsModule} from '@angular/forms'
+
+17. Directives
+
+app.component.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+</head>
+<body style="padding:40px ">
+<p style="text-align: center;font-size: 30px">  Hello <input type="text" placeholder="Your name" (input)="ontyping($event)"/>, Welcome to the <b>angCare!</b></p> 
+<p style="text-align: center;font-size: 20px">Hello {{name}}<br>I am Joe, your personal assistant! I will guide you further...</p>
+<div style="text-align:left;padding: 20px">
+<p> Click on Sign up to create your account with angCare: <button (click)="signup()" class="btn btn-primary">Sign up with {{title}}</button>   : {{status}}</p>
+<p> Click on Sign up to create your account with angCare: <button>Sign In </button></p>
+</div>
+<div >
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <h2>Angular 6 Reactive Form Validation</h2>
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                      <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                          <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                      <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                          <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Email</label>
+                      <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                          <div *ngIf="f.email.errors.required">Email is required</div>
+                          <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                      <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                          <div *ngIf="f.password.errors.required">Password is required</div>
+                          <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <button [disabled]="loading" class="btn btn-primary">Register</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+<router-outlet></router-outlet>
+     
+app.component.ts
+
+import { Component,OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
+     
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+     
+export class AppComponent {
+     
+  constructor(private formBuilder: FormBuilder) { }
+  title = 'angCare';
+  status = 'You haven\'t signed up yet';
+  name = '';
+  submitted = false;
+  registerForm: FormGroup;
+  ontyping(event:Event) {
+     
+    this.name = (<HTMLInputElement>event.target).value;
+  }
+  signup() {
+  
+     this.status = 'Oops! We are working on it!';
+     
+  }
+     
+  ngOnInit() {
+    this.registerForm = this.formBuilder.group({
+        firstName: ['', Validators.required],
+        lastName: ['', Validators.required],
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(6)]]
+    });
+}
+     
+get f() { return this.registerForm.controls; }
+     
+onSubmit() {
+    this.submitted = true;
+     
+    // stop here if form is invalid
+    if (this.registerForm.invalid) {
+        return;
+    }
+     
+    alert('Your request has been submitted for approval')
+}
+}
+     
+     
+app.module.ts
+
+import { ReactiveFormsModule} from '@angular/forms'
+
+18. PIPES
+
+list.component.html
+
+<html>
+<head>
+<title>List Component </title>
+</head>
+<body>
+<td [style.color]="'#306A9D'" [style.font-weight]="700" [style.font-size.px]="20">
+   {{ product.productName | uppercase }}
+</td>
+<td>{{ product.productCode | convertToSpaces:'-'}}</td>
+</body>
+</html>
+
+
+pipe.ts
+
+import { Pipe, PipeTransform } from "@angular/core";
+@Pipe({
+   name: 'convertToSpaces'
+})
+export class ConvertToSpacesPipe implements PipeTransform{
+   transform(value:string, character:string, ) {
+       return value.replace(character, '@');
+   }
+}
+
+converting pipe.ts to app.module.ts
+
+import { ConvertToSpacesPipe } from 'src/app/products/convert-to-spaces.pipe';
+
+declarations: [
+   AppComponent,
+   ProductListComponent,
+   ConvertToSpacesPipe
+ ]
+
+19. Routing Mechanisms
+
+app.component.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+</head>
+<body style="padding:40px ">
+<p style="text-align: center;font-size: 30px">  Hello <input type="text" placeholder="Your name" (input)="ontyping($event)"/>, Welcome to the <b>angCare!</b></p> 
+<p style="text-align: center;font-size: 20px">Hello {{name}}<br>I am Joe, your personal assistant! I will guide you further...</p>
+<div style="text-align:left;padding: 20px">
+<p> Click on Sign up to create your account with angCare: <button (click)="signup()" class="btn btn-primary" [routerLink]="'/signup'">Sign up with {{title}}</button>   : {{status}}</p>
+<p> Click on Sign up to create your account with angCare: <button>Sign In </button></p>
+</div>
+     
+</body>
+</html>
+<router-outlet></router-outlet>
+
+app.component.ts
+
+import { Component,OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
+     
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+     
+export class AppComponent {
+     
+  constructor(private formBuilder: FormBuilder) { }
+  title = 'angCare';
+  status = 'You haven\'t signed up yet';
+  name = '';
+  
+  ontyping(event:Event) {
+     
+    this.name = (<HTMLInputElement>event.target).value;
+  }
+  signup() {
+  
+     this.status = 'Oops! We are working on it!';
+     
+  }
+     }
+
+app.module.ts
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import {RouterModule, Routes} from '@angular/router'
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { ReactiveFormsModule} from '@angular/forms'
+import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
+     
+const routes: Routes = [{
+     
+  path:'',
+  component:AppComponent
+},
+     
+{
+  path:'signup',
+  component:SignupComponent
+},
+{
+  path:'sigin',
+  component:SigninComponent
+}
+     
+]
+     
+@NgModule({
+  declarations: [
+    AppComponent,
+    SignupComponent,
+    SigninComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    RouterModule.forRoot(routes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+     
+     
+signup.component.html
+
+<html>
+<head>
+<title>Signup</title>
+</head>
+<p>
+  signup works!
+</p>
+     
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <h2>Angular 6 Reactive Form Validation</h2>
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                      <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                          <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                      <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                          <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Email</label>
+                      <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                          <div *ngIf="f.email.errors.required">Email is required</div>
+                          <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                      <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                          <div *ngIf="f.password.errors.required">Password is required</div>
+                          <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <button [disabled]="loading" class="btn btn-primary">Register</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+     
+<router-outlet></router-outlet>
+     </body>
+</html>
+
+Singup.component.ts
+
+import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, Validators } from '@angular/forms';
+@Component({
+  selector: 'app-signup',
+  templateUrl: './signup.component.html',
+  styleUrls: ['./signup.component.css']
+})
+export class SignupComponent implements OnInit {
+  submitted = false;
+  registerForm: FormGroup;
+  constructor(private formBuilder: FormBuilder) { }
+  ngOnInit() {
+    this.registerForm = this.formBuilder.group({
+        firstName: ['', Validators.required],
+        lastName: ['', Validators.required],
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(6)]]
+    });
+}
+get f() { return this.registerForm.controls; }
+onSubmit() {
+  this.submitted = true;
+     
+  // stop here if form is invalid
+  if (this.registerForm.invalid) {
+      return;
+  }
+     
+  alert('Your request has been submitted for approval')
+}
+}
+  
+20. myPortfolio :Easy way to create amazing portfolio
+
+app.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'Personal-Portfolio-Angular';
+}
+
+angular
+
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "Personal-Portfolio-Angular": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/Personal-Portfolio-Angular",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "Personal-Portfolio-Angular:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "Personal-Portfolio-Angular:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "Personal-Portfolio-Angular:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "Personal-Portfolio-Angular:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "Personal-Portfolio-Angular:serve:production"
+            }
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
+        }
+      }
+    }
+  },
+  "defaultProject": "Personal-Portfolio-Angular",
+  "cli": {
+    "analytics": "d5d9f68b-dce0-4de7-a15e-56e2bbd99b5e"
+  }
+}
+
+package
+
+{
+  "name": "personal-portfolio-angular",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.1.7",
+    "@angular/common": "^9.1.12",
+    "@angular/compiler": "~9.1.7",
+    "@angular/core": "~9.1.7",
+    "@angular/forms": "~9.1.7",
+    "@angular/platform-browser": "~9.1.7",
+    "@angular/platform-browser-dynamic": "~9.1.7",
+    "@angular/router": "~9.1.7",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.1",
+    "express": "^4.17.1",
+    "ng-snotify": "^9.0.1",
+    "ngx-spinner": "^9.0.2",
+    "nodemailer": "^6.4.6",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.6",
+    "@angular/cli": "~9.1.6",
+    "@angular/compiler-cli": "~9.1.7",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^0.6.2",
+    "codelyzer": "^5.1.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~5.0.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~3.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "protractor": "^7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3"
+  }
+}
+
+
+package-lock
+
+{
+  "name": "personal-portfolio-angular",
+  "version": "0.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "personal-portfolio-angular",
+      "version": "0.0.0",
+      "dependencies": {
+        "@angular/animations": "~9.1.7",
+        "@angular/common": "^9.1.12",
+        "@angular/compiler": "~9.1.7",
+        "@angular/core": "~9.1.7",
+        "@angular/forms": "~9.1.7",
+        "@angular/platform-browser": "~9.1.7",
+        "@angular/platform-browser-dynamic": "~9.1.7",
+        "@angular/router": "~9.1.7",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.6.1",
+        "express": "^4.17.1",
+        "ng-snotify": "^9.0.1",
+        "ngx-spinner": "^9.0.2",
+        "nodemailer": "^6.4.6",
+        "rxjs": "~6.5.4",
+        "tslib": "^1.10.0",
+        "zone.js": "~0.10.2"
+      },
+      "devDependencies": {
+        "@angular-devkit/build-angular": "~0.901.6",
+        "@angular/cli": "~9.1.6",
+        "@angular/compiler-cli": "~9.1.7",
+        "@types/jasmine": "~3.5.0",
+        "@types/jasminewd2": "~2.0.3",
+        "@types/node": "^12.11.1",
+        "angular-cli-ghpages": "^0.6.2",
+        "codelyzer": "^5.1.2",
+        "jasmine-core": "~3.5.0",
+        "jasmine-spec-reporter": "~4.2.1",
+        "karma": "~5.0.0",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage-istanbul-reporter": "~2.1.0",
+        "karma-jasmine": "~3.0.1",
+        "karma-jasmine-html-reporter": "^1.4.2",
+        "protractor": "^7.0.0",
+        "ts-node": "~8.3.0",
+        "tslint": "~6.1.0",
+        "typescript": "~3.8.3"
+      }
+    },
+    "node_modules/@angular-devkit/architect": {
+      "version": "0.901.6",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.901.6.tgz",
+      "integrity": "sha512-0pWzn10gCZxMCrS62NlD38qE2R7l5fPfBuNylntNqvzw9L7iS1ARgqMlAKn8KLaNG6FrXONmgUWHsV987ZICIw==",
+      "dev": true,
+      "dependencies": {
+        "@angular-devkit/core": "9.1.6",
+        "rxjs": "6.5.4"
+      },
+      "engines": {
+        "node": ">= 10.13.0",
+        "npm": ">= 6.11.0",
+        "yarn": ">= 1.13.0"
+      }
+    },
+    "node_modules/@angular-devkit/architect/node_modules/rxjs": {
+      "version": "6.5.4",
+      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-6.5.4.tgz",
+      "integrity": "sha512-naMQXcgEo3csAEGvw/NydRA0fuS2nDZJiw1YUWFKU7aPPAPGZEsD4Iimit96qwCieH6y614MCLYwdkrWx7z/7Q==",
+      "dev": true,
+      "dependencies": {
+        "tslib": "^1.9.0"
+      },
+      "engines": {
+        "npm": ">=2.0.0"
+      }
+    },
+    "node_modules/@angular-devkit/build-angular": {
+      "version": "0.901.6",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-0.901.6.tgz",
+      "integrity": "sha512-jgLFKRWSZIZZVb7fiGC0SHzBFYBkDOLTw/MRta8p81o8WzLe0uxGVP4RlIj6fZxv3Vvb1NZI4HHrgt/jASaj4A==",
+      "dev": true,
+      "dependencies": {
+        "@angular-devkit/architect": "0.901.6",
+        "@angular-devkit/build-optimizer": "0.901.6",
+        "@angular-devkit/build-webpack": "0.901.6",
+        "@angular-devkit/core": "9.1.6",
+        "@babel/core": "7.9.0",
+        "@babel/generator": "7.9.3",
+        "@babel/preset-env": "7.9.0",
+        "@babel/template": "7.8.6",
+        "@jsdevtools/coverage-istanbul-loader": "3.0.3",
+        "@ngtools/webpack": "9.1.6",
+        "ajv": "6.12.0",
+        "autoprefixer": "9.7.4",
+        "babel-loader": "8.0.6",
+        "browserslist": "^4.9.1",
+        "cacache": "15.0.0",
+        "caniuse-lite": "^1.0.30001032",
+        "circular-dependency-plugin": "5.2.0",
+        "copy-webpack-plugin": "5.1.1",
+        "core-js": "3.6.4",
+        "css-loader": "3.5.1",
+        "cssnano": "4.1.10",
+        "file-loader": "6.0.0",
+        "find-cache-dir": "3.3.1",
+        "glob": "7.1.6",
+        "jest-worker": "25.1.0",
+        "karma-source-map-support": "1.4.0",
+        "less": "3.11.1",
+        "less-loader": "5.0.0",
+        "license-webpack-plugin": "2.1.4",
+        "loader-utils": "2.0.0",
+        "mini-css-extract-plugin": "0.9.0",
+        "minimatch": "3.0.4",
+        "open": "7.0.3",
+        "parse5": "4.0.0",
+        "postcss": "7.0.27",
+        "postcss-import": "12.0.1",
+        "postcss-loader": "3.0.0",
+        "raw-loader": "4.0.0",
+        "regenerator-runtime": "0.13.5",
+        "rimraf": "3.0.2",
+        "rollup": "2.1.0",
+        "rxjs": "6.5.4",
+        "sass": "1.26.3",
+        "sass-loader": "8.0.2",
+        "semver": "7.1.3",
+        "source-map": "0.7.3",
+        "source-map-loader": "0.2.4",
+        "speed-measure-webpack-plugin": "1.3.1",
+        "style-loader": "1.1.3",
+        "stylus": "0.54.7",
+        "stylus-loader": "3.0.2",
+        "terser": "4.6.10",
+        "terser-webpack-plugin": "2.3.5",
+        "tree-kill": "1.2.2",
+        "webpack": "4.42.0",
+        "webpack-dev-middleware": "3.7.2",
+        "webpack-dev-server": "3.10.3",
+        "webpack-merge": "4.2.2",
+        "webpack-sources": "1.4.3",
+        "webpack-subresource-integrity": "1.4.0",
+        "worker-plugin": "4.0.3"
+      },
+      "engines": {
+        "node": ">= 10.13.0",
+        "npm": ">= 6.11.0",
+        "yarn": ">= 1.13.0"
+      },
+      "peerDependencies": {
+        "@angular/compiler-cli": ">=9.0.0 < 10",
+        "typescript": ">=3.6 < 3.9"
+      },
+      "peerDependenciesMeta": {
+        "@angular/localize": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/@angular-devkit/build-angular/node_modules/rxjs": {
+      "version": "6.5.4",
+      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-6.5.4.tgz",
+      "integrity": "sha512-naMQXcgEo3csAEGvw/NydRA0fuS2nDZJiw1YUWFKU7aPPAPGZEsD4Iimit96qwCieH6y614MCLYwdkrWx7z/7Q==",
+      "dev": true,
+      "dependencies": {
+        "tslib": "^1.9.0"
+      },
+      "engines": {
+        "npm": ">=2.0.0"
+      }
+    },
+    "node_modules/@angular-devkit/build-optimizer": {
+      "version": "0.901.6",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/build-optimizer/-/build-optimizer-0.901.6.tgz",
+      "integrity": "sha512-M0H9SrOq4QOYqGCIguGQDWizf+XL7whJjBtYHxI7jEjtzar3zkTFgzZ/znv49R56Zch1niH0mBgtDxCFFWqarQ==",
+      "dev": true,
+      "dependencies": {
+        "loader-utils": "2.0.0",
+        "source-map": "0.7.3",
+        "tslib": "1.11.1",
+        "typescript": "3.6.5",
+        "webpack-sources": "1.4.3"
+      },
+      "bin": {
+        "build-optimizer": "src/build-optimizer/cli.js"
+      },
+      "engines": {
+        "node": ">= 10.13.0",
+        "npm": ">= 6.11.0",
+        "yarn": ">= 1.13.0"
+      }
+    },
+    "node_modules/@angular-devkit/build-optimizer/node_modules/tslib": {
+      "version": "1.11.1",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.11.1.tgz",
+      "integrity": "sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==",
+      "dev": true
+    },
+    "node_modules/@angular-devkit/build-optimizer/node_modules/typescript": {
+      "version": "3.6.5",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.6.5.tgz",
+      "integrity": "sha512-BEjlc0Z06ORZKbtcxGrIvvwYs5hAnuo6TKdNFL55frVDlB+na3z5bsLhFaIxmT+dPWgBIjMo6aNnTOgHHmHgiQ==",
+      "dev": true,
+      "bin": {
+        "tsc": "bin/tsc",
+        "tsserver": "bin/tsserver"
+      },
+      "engines": {
+        "node": ">=4.2.0"
+      }
+    },
+    "node_modules/@angular-devkit/build-webpack": {
+      "version": "0.901.6",
+      "resolved": "https://registry.npmjs.org/@angular-devkit/build-webpack/-/build-webpack-0.901.6.tgz",
+      "integrity": "sha512-jEk850AtIFK+xbXXiloVvueXTbJOL1mANR2UBrmWk7V4Bct+gHVerdXjn9vo1Tsd8BgemUYAcqvLldCx9MSDTg==",
+      "dev": true,
+      "dependencies": {
+        "@angular-devkit/architect": "0.901.6",
+        "@angular-devkit/core": "9.1.6",
+        "rxjs": "6.5.4"
+      },
+
+tsconfig
+
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
+
+
+tsconfig.app
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}
+
+
+tsconfig.spec
+
+
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
+
+
+tslint
+
+
+  "extends": "tslint:recommended",
+  "rules": {
+    "align": {
+      "options": [
+        "parameters",
+        "statements"
+      ]
+    },
+    "array-type": false,
+    "arrow-return-shorthand": true,
+    "curly": true,
+    "deprecation": {
+      "severity": "warning"
+    },
+    "component-class-suffix": true,
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "eofline": true,
+    "import-blacklist": [
+      true,
+      "rxjs/Rx"
+    ],
+    "import-spacing": true,
+    "indent": {
+      "options": [
+        "spaces"
+      ]
+    },
+    "max-classes-per-file": false,
+    "max-line-length": [
+      true,
+      140
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-empty": false,
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-non-null-assertion": true,
+    "no-redundant-jsdoc": true,
+    "no-switch-case-fall-through": true,
+    "no-var-requires": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": {
+      "options": [
+        "always"
+      ]
+    },
+    "space-before-function-paren": {
+      "options": {
+        "anonymous": "never",
+        "asyncArrow": "always",
+        "constructor": "never",
+        "method": "never",
+        "named": "never"
+      }
+    },
+    "typedef-whitespace": {
+      "options": [
+        {
+          "call-signature": "nospace",
+          "index-signature": "nospace",
+          "parameter": "nospace",
+          "property-declaration": "nospace",
+          "variable-declaration": "nospace"
+        },
+        {
+          "call-signature": "onespace",
+          "index-signature": "onespace",
+          "parameter": "onespace",
+          "property-declaration": "onespace",
+          "variable-declaration": "onespace"
+        }
+      ]
+    },
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case"
+      ]
+    },
+    "whitespace": {
+      "options": [
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type",
+        "check-typecast"
+      ]
+    },
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": true,
+    "no-input-rename": true,
+    "no-inputs-metadata-property": true,
+    "no-output-native": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "no-outputs-metadata-property": true,
+    "template-banana-in-box": true,
+    "template-no-negated-async": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
